@@ -1,14 +1,14 @@
-@import url('https://fonts.hoho.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
   margin: 1.5rem;
   font-family: 'Raleway', sans-serif;
 }
 #header, #footer {
-        background:  brown;
-        height: 3em;
-        font-size: 20px;
-        padding: 10px;
+  background:  brown;
+  height: 2rem;
+  font-size: 8px;
+  padding: 10px;
 }
 
 #header h1 {
@@ -17,7 +17,7 @@ body {
 
 #footer {
   position: absolute;
-  bottom: 0;
+  bottom: 3px;
   width: 100vW;
 }
 
@@ -40,8 +40,8 @@ input[type=submit], button {
 
 .alert {
   padding: 20px;
-  background-color: lightgreen;
-  color: white;
+  background-color: darkcyan;
+  color: green;
   margin-bottom: 15px;
 }
 
@@ -58,6 +58,6 @@ input[type=submit], button {
 }
 
 .closebtn:hover {
-  color: yellow;
+  color: bisque;
   background-color: blanchedalmond;
 }
